@@ -7,7 +7,7 @@ The tests are triggered via [cronjobs](../../cronjobs/dogfooding/nightly-tests).
 
 The nightly tests can be executed for different Tekton components and
 based on different hardware architectures. At this moment only pipelines
-for `s390x` architecture are available.
+for `s390x` and `ppc64le` architectures are available.
 Nightly e2e tests are running based on the latest (`master` or `main`)
 branch and include components build step with `ko` tool.
 
